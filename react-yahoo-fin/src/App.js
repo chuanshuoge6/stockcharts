@@ -263,7 +263,7 @@ function App() {
   }
 
   const startServer = () => {
-    window.open('http://chuanshuoge-stockcharts.herokuapp.com/stocks/about_yahoo_fin/')
+    window.open('http://chuanshuoge-yahoo-fin.herokuapp.com/stocks/about_yahoo_fin/')
   }
 
   return (

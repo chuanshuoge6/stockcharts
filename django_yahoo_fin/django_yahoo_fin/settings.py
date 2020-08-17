@@ -25,7 +25,8 @@ SECRET_KEY = '!lcj$@(+y+qw4lklk#ll=0kmnn+zu%1s6)y&k+nm4^ft0sr3i9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['chuanshuoge-stockcharts.herokuapp.com']
+ALLOWED_HOSTS = ['chuanshuoge-yahoo-fin.herokuapp.com']
+#ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -123,6 +124,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/dev/howto/static-files/
 
 STATIC_URL = '/static/'
+
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
